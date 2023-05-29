@@ -1,0 +1,82 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Suhu : "
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/suhu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:text="Kelembapan : "
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/kelembapan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:text="LED : "
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_hidup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Hidupkan LED"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:background="@drawable/button_background"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"
+        android:radius="10dp"/>
+
+    <Button
+        android:id="@+id/btn_mati"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Matikan LED"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:background="@drawable/button_background"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"
+        android:radius="10dp"/>
+</RelativeLayout>
